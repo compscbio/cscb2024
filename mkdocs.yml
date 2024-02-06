@@ -1,0 +1,59 @@
+site_name: CSCB 2024
+site_author: Patrick Cahan
+copyright: Copyright &copy; 2024 Patrick Cahan
+repo_url: https://github.com/compscbio/cscb2024
+
+use_directory_urls: false
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  palette:
+    primary: light blue
+  logo: logoGlow.png
+  features:
+    - content.footnote.tooltips
+
+markdown_extensions:
+  - md_in_html
+  - footnotes
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false  # Set to true if you want to execute notebooks on build
+
+nav:
+  - Home: index.md
+  - Lecture schedule: lecture_schedule.md
+  - BioBreaks: 
+    - 'Stem cell fundamentals': 'biobreaks/stem_cell_fundamentals.md'
+    - 'Cell cycle': 'biobreaks/cell_cycle.md'
+    - 'Cell identity': 'biobreaks/cell_identity.md'
+  - Jupyter notebooks:
+    - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
+
+copyright: Copyright &copy; 2023 - 2024 Patrick Cahan
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/compscbio
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/cahanlab
+  analytics:
+    provider: google
+    property: 301870829
+
+
+
+    
+
