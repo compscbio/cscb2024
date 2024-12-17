@@ -39,9 +39,10 @@ nav:
     - 'Cell cycle': 'biobreaks/cell_cycle.md'
     - 'Cell identity': 'biobreaks/cell_identity.md'
   - Jupyter notebooks:
+    - 'BCMB Dec 2024: Pre-check': 'notebooks/BCMB_121824_precheck.ipynb'
     - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
 
-copyright: Copyright &copy; 2023 - 2024 Patrick Cahan
+copyright: Copyright &copy; 2023 - 2025 Patrick Cahan
 
 extra:
   social:
